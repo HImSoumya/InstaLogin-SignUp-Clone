@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link js -->
+    <script src="index.js"></script>
+    <!-- font awsowm -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- g fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- AJAX -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>Instagram</h1>
+        </div>
+        <div class="para">
+            <p>Sign up to see photos and videos from your friends.</p>
+        </div>
+        <div class="button">
+            <button class="btn"><i class="fa fa-facebook-square"  style="font-size: 20px;"></i>   Log in with Facebook</button>
+        </div>
+        <div class="flex">
+            <div class="line"></div>
+            <div class="or"> OR </div>
+            <div class="line"></div>
+         </div>
+        <div class="form">
+            <div class="form-group">
+                <input type="text" placeholder="Mobile Number or Email" id="email">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Full Name" id="name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="User Name" id="uname">
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" id="passw" >
+            </div>
+            <div class="form-group ck">
+                <input type="checkbox" onclick="showpass()" >
+                <label>Show Password</label>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="submit() ">Sign up</button>
+            </div>
+        </div>
+        <div class="text2">
+            <p>By signing up, you agree to our <strong>Terms</strong> , <strong>Data Policy</strong> and<strong> Cookies Policy .</strong></p>
+        </div>
+    </div>
+
+    <div class="  box">
+      <p>Have an account?<a href="index2.html">Log in</a></p>
+    </div>
+
+    <div class="box2">
+        <div class="p">
+            <p>Get the app.</p>
+        </div>
+        <div class="pics">
+            <div class="im1">
+                <img src="img/app.png" alt="">
+            </div>
+            <div class="im1">
+                <img src="img/app2.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="menu">
+        <ul>
+            <li>Meta</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Jobs</li>
+            <li>Help</li>
+            <li>API</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Top Accounts</li>
+            <li>Hastangs</li>
+            <li>Location</li>
+            <li>Instagram Lite</li>
+        </ul>
+        <ul>
+            <li>English</li>
+            <li>&#169 2022 Instagram from Meta</li>
+        </ul>
+    </div>
+</body>
+
+</html>

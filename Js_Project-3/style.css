@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgba(192, 192, 192, 0.068);
+}
+.container{
+    border: 1px solid rgba(192, 192, 192, 0.651);
+    height: 565px;
+    width: 26%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px 25px 25px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+}
+.title > h1{
+    font-size: 60px;
+    font-family: 'Cookie', cursive;
+    font-weight: 200;
+}
+.para > p{
+    font-size: 21px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 300;
+    color: rgb(141, 138, 138);
+}
+.btn{
+    width: 90%;
+    padding: 7px;
+    font-size: 14px;
+    margin: 10px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    border-radius:6px ;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.flex{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.or{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    color: rgb(141, 138, 138);
+
+}
+.line{
+    width:99px;
+    height: 1px;
+    background-color: rgb(206, 206, 211);
+}
+.form-group{
+    margin: 10px;
+}
+input[type='text']{
+    width: 94%;
+    padding: 10px;
+    background-color: rgba(245, 241, 241, 0.445);
+    border: none;
+    outline: 1px solid rgba(128, 128, 128, 0.616);
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+input[type='password']{
+    width: 94%;
+    padding: 10px;
+    background-color: rgba(245, 241, 241, 0.445);
+    border: none;
+    outline: 1px solid rgba(128, 128, 128, 0.616);
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+label{
+    font-size: 15px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 700;
+    color: rgb(10, 0, 0); 
+}
+.ck{
+    text-align: left;
+    width: 90%;
+}
+
+
+
+
+
+
+.text2 > p{
+    font-size: 13px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 300;
+    color: rgb(141, 138, 138);
+}
+.box{
+     
+    border: 1px solid silver;
+    height: auto;
+    width: 26%;
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box > p {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.box > p > a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* log in page */
+.login{
+    height: auto;
+}
+.text>p{
+    color: rgb(8, 8, 131);
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif; 
+
+}
+.box0{
+    margin-top: 20px;
+}
+.box0 > a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.box2{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.im1{
+    margin:4px;
+}
+img{
+    width: 127px;
+    height: 39px;
+}
+.p >p {
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.menu{
+    /* border: 1px solid green; */
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 45px;
+     
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul > li{
+    list-style:none;
+    margin: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(109, 106, 106);
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* responsive media */
+@media only screen and (max-width: 1097px) {
+     .container{
+         width: 80%;
+     }
+     .box{width: 80%;}
+  }
+@media only screen and (max-width: 560px) {
+    .menu{
+        width: 90%;  
+    }
+    .menu > ul {
+        flex-wrap: wrap;
+    }
+  }
+@media only screen and (max-width: 460px) {
+     
+     .container{
+        background-color: transparent;
+       
+        border: none;
+     }
+     .box{
+        background-color: transparent;
+       
+        border: none;
+     }
+  }
